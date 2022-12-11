@@ -1,0 +1,10 @@
+.btn_create {
+    background-color: var(--pluto-e-blue);
+    color: #ffffff;
+    border: 1px solid var(--pluto-green);
+}
+
+.btn_create:hover {
+    color: #ffffff;
+    border: 1px solid var(--pluto-green);
+}

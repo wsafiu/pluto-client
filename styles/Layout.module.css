@@ -1,0 +1,20 @@
+.bg {
+    background-image: url("../public/image_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    padding-top: 81.5px;
+}
+
+@media (max-width: 576px) {
+    .small {
+        position: fixed;
+        width: 100vw;
+        bottom: -85px;
+        left: 0;
+        z-index: 100;
+    }
+}
