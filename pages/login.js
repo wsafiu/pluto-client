@@ -49,7 +49,7 @@ const Login = ({ csrfToken }) => {
     return (
         <>
             <UserFormUtil formAction={signIn} />
-            <button style={{zIndex: 1000}} onClick={() => nextSignIn()}>sign in </button>
+            {/*<button style={{zIndex: 1000}} onClick={() => nextSignIn()}>sign in </button>*/}
 
         </>
     );
